@@ -1,0 +1,199 @@
+///// teaser hotel
+
+
+.dh-hotel-item {
+	display: flex;
+	flex-direction: column;
+    padding: 20px;
+    
+
+	&-image {
+		width: 100%;
+		a img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	&-content {
+		width: 70%;
+		padding: 10px 0;
+
+		&-body {
+			font-weight: normal;
+		}
+	}
+
+	@media (min-width: 500px) {
+		flex-direction: row;
+		align-items: center;
+		&-image {
+			width: 200px;
+			a img {
+			}
+		}
+
+		&-content {
+			width: 70%;
+			padding: 20px;
+		}
+	}
+
+	@media (min-width: 769px) {
+		border-bottom: 1px solid gray;
+	}
+}
+
+/// hotel page
+
+.dh-hotel {
+	position: relative;
+	border: 1px solid gray;
+
+	&-page-links {
+		opacity: 0.7;
+		background: #dce9fb;
+		display: flex;
+		height: 50px;
+		border: 1px solid gray;
+		width: 200px;
+		box-sizing: content-box;
+		border-radius: 5px;
+		margin: 0 20px 20px 0;
+
+		 .btn-info {
+	  	    width: 100px;
+		    display: flex;
+		    align-items: center;
+		    justify-content: flex-start;
+		    padding: 0 10px;
+
+		    a{
+		    	color: black;
+		    	text-decoration: none;
+			}
+
+		    &.btn-active {
+				opacity: 1;
+				background: #4c89cc;
+				border-radius: 0px;
+				color: white;
+			}
+		 }
+		 .btn-enquiry {
+	  	    width: 100px;
+		    display: flex;
+		    align-items: center;
+		    justify-content: flex-start;
+		    padding: 0 10px;
+			color: black;
+
+			a{
+		    	color: black;
+		    	text-decoration: none;
+			}
+
+		    &.btn-active {
+				opacity: 1;
+				background: #4c89cc;
+				border-radius: 0px 5px 5px 0;
+				color: white;
+			}
+		 }
+		
+	}
+
+	&-section {
+
+		img {
+			width: 100%;
+			height: auto;
+		} 
+
+		&-content {
+			padding: 20px;
+			img{
+				width: 100%;
+				height: auto;
+				max-width: 500px;
+			}
+		}
+
+	}
+
+	&-rooms-teaser {
+	    border: 1px solid gray;
+	    padding: 20px;
+	    margin: 20px;
+	    display:flex;
+		flex-direction: column;
+		align-items: stretch;
+	    
+	    &-image {
+		    a {
+			    display: block;
+			    width: 100%;
+			    height: 150px;
+			    img {
+			    	width: 100%;
+			    	height: 100%;
+			    }
+			}
+		}
+
+	    &-name {
+	    padding: 10px 0;
+
+		    a{
+		    	font-size: 20px;
+		    	font-weight: bolder;
+		    	text-decoration: none;
+		    	color: black;
+	    	}
+	   }
+
+	}
+
+	@media (min-width:768px){
+		&-section {
+		    display: flex;
+		    align-items: center;
+		    padding: 30px 10px;
+		    border-bottom: 1px solid gray;
+
+		    img {
+		    	max-width: 800px;
+		    }
+		}
+
+		&-rooms-teaser {
+			&-image {
+	    	 height: 300px; 
+	    	 a {
+	    	  height: 300px;
+	    	 }
+
+	    	}
+		    img {
+		    	height: 100%;
+		    }
+	    }
+		    
+	}
+
+	@media (min-width:900px){
+
+		&-rooms-teaser {
+			&-image {
+	    	 height: 200px; 
+	    	 a {
+	    	  height: 200px;
+	    	 }
+
+	    	}
+		    img {
+		    	height: 100%;
+		    }
+	    }
+		    
+	}
+}

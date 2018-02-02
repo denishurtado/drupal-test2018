@@ -1,0 +1,24 @@
+name: My Planet
+description: Theme for MY Planet.
+base theme: false
+package: Custom
+type: theme
+version: '1.0'
+core: '8.x'
+libraries:
+  # Enable next line in production environment
+  - myplanet/global-css
+  - myplanet/global-js
+regions:
+  top: 'Top'
+  header: 'Header'
+  main_navigation: 'Main navigation'
+  slideshow: 'Slideshow'
+  sidebar: 'Sidebar'
+  content: 'Main Content'
+  footer: 'Footer'
+  bottom: 'Bottom'
+
+stylesheets-remove:
+  - core/themes/stable/css/views/views.module.css
+  - core/themes/stable/css/system/components/align.module.css

@@ -1,0 +1,11 @@
+
+.slick-prev.slick-arrow {
+	background: red;
+	postion:relative;
+	z-index:1000;
+}
+
+.slick-next.slick-arrow {
+	background: black;
+	right: 0;
+}

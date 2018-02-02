@@ -1,0 +1,49 @@
+/*
+ * Variables
+ */
+
+//Breakpoints 
+$smartphones:         "screen and (max-width : 320px)";
+$smartphones_landscape:     "screen and (min-width : 321px)";
+$tablet:            "screen and (min-device-width : 768px) and (max-device-width : 1024px)";
+$desktop_laptop:        "screen and min-width : 1224px)";
+$large_screens :        "screen and (min-width : 1824px)";
+
+//Main Colors
+$colorPrimary:    #f96d2c;
+$colorSecundary:  #4c47f3;
+$colorMainText:   #585858;
+$colorLinks:    #585858;
+
+// Typography and sizes
+$font-family-main: 'Arial', sans-serif;
+
+$p-font-size-mobile : 15px;
+$p-font-size-small  : 16px;
+$p-font-size-medium : 17px;
+$p-font-size-large  : 19px;
+
+$h1-font-size-mobile: 28px;
+$h1-font-size-small : 31px;
+$h1-font-size-medium: 33px;
+$h1-font-size-large : 36px;
+
+
+// 12 column Grid Sytem
+.msl-col-1 {width: 8.33%;}
+.msl-col-2 {width: 16.66%;}
+.msl-col-3 {width: 25%;}
+.msl-col-4 {width: 33.33%;}
+.msl-col-5 {width: 41.66%;}
+.msl-col-6 {width: 50%;}
+.msl-col-7 {width: 58.33%;}
+.msl-col-8 {width: 66.66%;}
+.msl-col-9 {width: 75%;}
+.msl-col-10 {width: 83.33%;}
+.msl-col-11 {width: 91.66%;}
+.msl-col-12 {width: 100%;}
+
+// Paths
+$img-base-url:"../../build/imges/";
+$font-base-url:"../../build/font/";
+

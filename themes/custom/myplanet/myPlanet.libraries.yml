@@ -1,0 +1,13 @@
+global-css:
+  css:
+    theme:
+      build/css/styles.min.css: {}
+
+global-js:
+  js:
+    build/js/bundle.js: {}
+    build/js/vendor.min.js: {}
+
+  dependencies:
+    - core/drupal
+    - core/jquery

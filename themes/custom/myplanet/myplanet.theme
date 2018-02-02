@@ -1,0 +1,11 @@
+<?php
+
+function myplanet_preprocess_html(&$vars) {
+  $system_path = \Drupal::service('path.current')->getPath();
+  if($system_path == '/filter/tips') {}
+}
+
+function myplanet_preprocess_page(&$vars) {
+  # Set to FALSE next line in production environment
+  $vars['debugging'] = true;
+}
